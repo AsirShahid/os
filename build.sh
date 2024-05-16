@@ -22,7 +22,6 @@ IMAGE_BRANCH="${IMAGE_BRANCH:-main}"
 BASE_IMAGE_NAME="${BASE_IMAGE_NAME:-kinoite}"
 FEDORA_MAJOR_VERSION="${FEDORA_MAJOR_VERSION:-40}"
 
-cp system_files/desktop/shared system_files/desktop/${BASE_IMAGE_NAME} /
 
 # Setup Copr repos
 
